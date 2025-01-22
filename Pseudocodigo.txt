@@ -1,0 +1,19 @@
+Algorythm MediaFinalYear
+Variables: Float, SDAC, IMEI, ELF, CD, media
+
+Start
+    write("Enter the media you have in SDAC: ");
+    read(SDAC);
+    write("Enter the media you have in IMEI: ");
+    read(IMEI);
+    write("Enter the media you have in ELF: ");
+    read(ELF);
+    write("Enter the media you have in CD: ");
+    read(CD);
+
+    Media = (SDAC + IMEI + ELF + CD) / 4
+
+    if Media >= 9.5:
+        print("Your media is", Media, "Congratulations you have passed the year!")
+    else: 
+        print("Your media is", Media, "unfortunately you did not passed the year :("))

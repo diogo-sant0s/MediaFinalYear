@@ -1,0 +1,11 @@
+1- Beginning
+2- Request and store the SDAC grade
+3- Request and store the IMEI grade
+4- Request and store the CD grade
+5- Request and store the ELF grade
+6- Calculate the average of the grades entered in steps (2, 3, 4, 5)
+7- If the value is > 9.5 then go to step 9
+8- If the value is < 9.5 then go to step 10
+9- Display on the screen "Your average is ... , congratulations you have passed the year"
+10- Display on the screen "Your average is ... , unfortunately you did not pass the year"
+11- End
